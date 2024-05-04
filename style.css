@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header{
+    width: auto;
+    height: auto;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: rgb(245, 253, 250);
+}
+
+.navbar h1{
+    font-size: 2rem;
+}
+
+#menu-btn{
+    width: 1.25rem;
+    z-index: 100;
+    color: blue;
+}
+
+main{
+    width: auto;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+}
+
+.features h2{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.features-1{
+    background-color: black;
+    color: white;
+}
+
+.features-2{
+    background-color: rgb(92, 194, 241);
+    color: white;
+}
+
+.features-3{
+    background-color: rgb(47, 145, 190);
+    color: white;
+}
+
+.feat{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    text-align: center;
+    padding-inline: 3rem;
+}
+
+.feat p{
+    font-style: italic;
+}
+
+.about-section{
+    text-align: center;
+    padding: 10rem;
+}
+
+.about-section p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-section button{
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding-inline: 1rem;
+}
+
+.hero-section{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.hero-section .hero-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-section .hero-text{
+    background-color: rgb(92, 194, 241);
+    padding: 3rem;
+    color: white;
+}
+
+.hero-section .hero-text p{
+    margin-top: 2rem;
+}
+
+.hero-section .hero-text button{
+    margin-top: 2rem;
+    padding: 0.3rem;
+    padding-inline: 0.7rem;
+    border: 1px solid gainsboro;
+    border-radius: 15px;
+    color: rgba(6, 176, 228, 0.952);
+}
+
+.service-section{
+    width: 100%;
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-section h2{
+    font-size: 2rem;
+}
+
+.icon-section{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 15px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.icon-section .icon{
+    padding-inline: 6rem;
+}
+
+.icon-section .icon span svg{
+    width: 5rem;
+}
+
+.service-section button{
+    background-color: white;
+    border: 1px solid rgb(0, 217, 255);
+    padding: 0.6rem;
+    padding-inline: 1rem;
+    margin-bottom: 2rem;
+}
+
+.get-section{
+    background-color: rgb(24, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+    padding-inline: 8rem    ;
+}
+
+.get-section button{
+    background-color: white;
+    color: rgb(21, 197, 250);
+    padding: 0.6rem;
+    padding-inline: 1rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.before{
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.before button{
+    margin-top: 10rem;
+    background-color: black;
+    color: white;
+    padding: 0.6rem;
+    padding-inline: 1rem;
+    border: none;
+}
+
+footer{
+    background-color: black;
+    padding-block: 2rem;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
